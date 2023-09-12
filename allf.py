@@ -6,6 +6,7 @@ class allfun():
         lst =["Sub-fields in AI are:","Machine Learning","Neural Networks", "Vision", "Robotics", "Speech Processing", "Natural Language"] 
         for i in lst:
             print(i)
+            
     def OddEven():
         n=int(input("Enter a number:"))
         if(n%2==0):
