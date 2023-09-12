@@ -3,7 +3,9 @@ class allfun():
         print("My fn")
     
     def Subfields():
-        print("Sub-fields in AI are:\nMachine Learning \nNeural Networks\nVision\nRobotics\nSpeech Processing\nNatural Language Processing")     
+        lst =["Sub-fields in AI are:","Machine Learning","Neural Networks", "Vision", "Robotics", "Speech Processing", "Natural Language"] 
+        for i in lst:
+            print(i)
     def OddEven():
         n=int(input("Enter a number:"))
         if(n%2==0):
